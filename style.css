@@ -1,0 +1,275 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 85px;
+    background-color: rgba(52, 52, 52, 1);
+}
+.soviet{
+    max-width: 1280px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    /* position: absolute; */
+}
+.nav li{
+    display: inline;
+    /* padding: 3px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav a{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgb(219, 219, 219);
+}
+
+
+
+
+
+.aboutme{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 90%;
+    max-width: 1500px;
+    min-width: 800px;
+    /* height: 500px; */
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.text-rotate{
+    text-align: center;
+}
+.text-rotate h1{
+    font-size: 55px;
+    transform: rotate(2.71deg);
+}
+.text-rotate h2, h3{
+    font-size: 50px;
+    margin-top: 100px;
+    transform: rotate(-6.39deg);
+}
+main{
+    width: 500px;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+main img{
+    width: 700px;
+}
+.left{
+    width: 350px;
+    /* padding: 20px; */
+    padding-top: 50px;
+    /* border: 1px solid black; */
+}
+.right{
+    margin-left: 65px;
+    width: 450px;
+    padding: 20px;
+    padding-top: 50px;
+    /* border: 1px solid black; */
+}
+.left .text-about{
+    width: 350px;
+}
+.left h1{
+    font-weight: bold;
+    font-size: 41px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left p{
+    font-size: 17px;
+    color: rgba(105, 105, 105, 1);
+    margin: 5px;
+}
+
+
+
+
+
+
+.works{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 90%;
+    max-width: 1500px;
+    min-width: 800px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.works h1{
+    margin: 0;
+}
+.works .text{
+    position: absolute;
+    width: 400px;
+    /* padding: 2; */
+}
+.boxes{
+    display: flex;
+    margin: 75px auto 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    /* border-radius: 50px; */
+    margin: 50px;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.048);
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+}
+.box img{
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+    height: 300px;
+    filter: brightness(90%)
+}
+.box p{
+    margin-left: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(51, 51, 51)
+}
+.box a:hover{
+    filter: brightness(90%)
+}
+
+
+
+
+.order{
+    display: flex;
+    width: 90%;
+    max-width: 1500px;
+    min-width: 800px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    /* border: 1px solid black; */
+}
+.order main{
+    /* width: 660px */
+    width: 400px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.order .left{
+    width: 450px;
+    margin-right: 20px;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+.order .right{
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.order .right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.left .text{
+    width: 300px;
+}
+.left p{
+    margin-top: 30px;
+    font-size: 25px;
+}
+main .inputs{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    width: 270px;
+}
+form select{
+    width: 270px;
+    height: 55px;
+    border: 2px solid rgba(217, 217, 217, 1);
+    border-radius: 4px;
+    color: rgba(174, 174, 174, 1);
+    padding-left: 13px;
+}
+form input{
+    color: rgba(174, 174, 174, 1);
+    width: 242px;
+    height: 50px;
+    margin-top:20px;
+    border: 2px solid rgba(217, 217, 217, 1);
+    border-radius: 4px;
+    padding-left:20px;
+}
+form button{
+    margin-top:20px;
+    width: 270px;
+    height: 50px;
+    color: white;
+    background-color: rgba(52, 52, 52, 1);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+
+footer{
+    height: 125px;
+    background-color: rgb(52, 52, 52);
+}
+.footer-soviet{
+    max-width: 1600px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-nav ul{
+    padding: 0;
+    margin: 0;
+    /* position: absolute; */
+}
+.footer-nav li{
+    display: inline;
+    /* padding: 3px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-nav a{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+.footer-nav img:hover{
+    filter: brightness(90%);
+    width: 61px;
+}
